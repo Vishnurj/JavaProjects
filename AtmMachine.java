@@ -89,11 +89,8 @@ import java.util.Scanner;
           menu();
   
         }
-        sc.close();
-        
+        sc.close();        
       }
-
-
       public void depositAmount()
       {
          System.out.println("Enter the amount to deposit");
@@ -104,25 +101,11 @@ import java.util.Scanner;
          System.out.println(" Amount deposited Successfully  " +balance);
          menu();
          sc.close();
-
       }
-      
-
-      
-  
-}
-
-
-
+  }
 public class AtmMachine {
-
 public static void main(String[] args) {
 Atm atm = new Atm();
-atm.checkPin();
-  
-}
-
-  
-
-  
+atm.checkPin();  
+} 
 }
